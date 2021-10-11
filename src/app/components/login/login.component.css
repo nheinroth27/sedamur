@@ -1,0 +1,38 @@
+.body{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.espacio_arriba{
+    margin: 1rem 0 0 0;
+}
+
+.login{
+    text-align: center;
+    width: 100%;
+    max-width: 330px;
+}
+
+.img_user{
+    margin-bottom: 1rem;
+    width: 75%;
+}
+
+.ancho{
+    width: 80%;
+}
+
+.ancho_2{
+    padding: 2rem;
+    width: 100%;
+}
+
+.boton{
+    height: 50px;
+}
+
+.spinner{
+  margin: 0 auto;
+}

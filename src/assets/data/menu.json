@@ -1,0 +1,23 @@
+
+[
+    {    
+        "nombre":"Casos",
+        "redirect":"/escritorio/casos",
+        "items":[
+                    {
+                    "nombre_menu":"Agregar",
+                    "redirect_menu":"/escritorio/casos/agregar"
+                    }
+                ]
+    },
+    {
+        "nombre":"Seguimiento",
+        "redirect":"/escritorio/seguimiento",
+        "items":[
+                    {
+                    "nombre_menu":"Agregar",
+                    "redirect_menu":"/escritorio/casos/agregar"
+                    }
+                ]
+    }
+]

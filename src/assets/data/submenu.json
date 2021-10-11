@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "menu_id": 1,
+        "nombre":"Agregar",
+        "redirect":"/escritorio/casos/agregar"
+    }
+]

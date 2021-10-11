@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+body {
+    background: #ffffff
+
+}
+
+.titulo {
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.contenedor{
+  margin: 1% 7% 1% 7%;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+table {
+  width: 100%;
+}
+
+.espacio{
+  margin: 0 1rem 0 0 ;
+}
+
+th {
+  width: 10%;
+}
+
+.pointer{
+  cursor: pointer;
+  margin: 0 0.3rem 0 0.3rem;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.ancho{
+  width: 80%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
