@@ -1,12 +1,8 @@
 <mat-toolbar color="primary">
     <span>Informes SEDAMUR</span>
     <span class="example-spacer"></span>
-    <!--button  *ngFor="let item of menu" [matMenuTriggerFor]="menu" [routerLink]="item.redirect" mat-flat-button color="primary">{{ item.nombre }}</button>
+    <button  *ngFor="let item of menu" [routerLink]="item.redirect" mat-flat-button color="primary">{{ item.nombre }}</button>
     <span class="example-spacer"></span>
-    <mat-menu #menu="matMenu">
-        <button mat-menu-item>Item 1</button>
-        <button mat-menu-item>Item 2</button>
-      </mat-menu-->
     <button routerLink="/logout" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>logout</mat-icon>
     </button>

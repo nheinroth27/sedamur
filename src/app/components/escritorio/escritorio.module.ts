@@ -6,12 +6,14 @@ import { SharedModule } from '../shared/shared.module';
 import { EscritorioComponent } from './escritorio.component';
 import { CasosComponent } from './casos/casos.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SeguimientoComponent } from './seguimiento/seguimiento.component';
 
 @NgModule({
   declarations: [
     EscritorioComponent,
     CasosComponent,
-    NavbarComponent
+    NavbarComponent,
+    SeguimientoComponent
   ],
   imports: [
     CommonModule,
